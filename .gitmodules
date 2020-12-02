@@ -1,0 +1,9 @@
+[submodule ".anyenv/envs/nodenv"]
+	path = .anyenv/envs/nodenv
+	url = https://github.com/nodenv/nodenv.git
+[submodule ".anyenv/envs/rbenv"]
+	path = .anyenv/envs/rbenv
+	url = https://github.com/rbenv/rbenv.git
+[submodule ".anyenv/envs/pyenv"]
+	path = .anyenv/envs/pyenv
+	url = https://github.com/pyenv/pyenv.git
