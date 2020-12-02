@@ -1,0 +1,12 @@
+[user]
+    name = "Kaze Shindo"
+    email = kaze.bknb@outlook.jp
+
+[alias]
+	st = status
+	cm = commit
+	df = diff
+	br = branch
+	co = checkout
+[fetch]
+	prune = true
