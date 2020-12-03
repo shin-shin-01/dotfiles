@@ -10,3 +10,6 @@
 [submodule "enhanced"]
 	path = enhanced
 	url = https://github.com/b4b4r07/enhancd.git
+[submodule ".anyenv/envs/goenv"]
+	path = .anyenv/envs/goenv
+	url = https://github.com/syndbg/goenv.git
