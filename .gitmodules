@@ -7,3 +7,6 @@
 [submodule ".anyenv/envs/pyenv"]
 	path = .anyenv/envs/pyenv
 	url = https://github.com/pyenv/pyenv.git
+[submodule "enhanced"]
+	path = enhanced
+	url = https://github.com/b4b4r07/enhancd.git
