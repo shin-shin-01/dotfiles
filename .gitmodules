@@ -13,3 +13,6 @@
 [submodule ".anyenv/envs/goenv"]
 	path = .anyenv/envs/goenv
 	url = https://github.com/syndbg/goenv.git
+[submodule ".anyenv/envs/tfenv"]
+	path = .anyenv/envs/tfenv
+	url = https://github.com/tfutils/tfenv.git
