@@ -1,1 +1,61 @@
-/Users/kaze/Library/Application Support/Code/User/settings.json
+{
+    "workbench.startupEditor": "welcomePage",
+    "files.autoGuessEncoding": true,
+    "window.zoomLevel": 1,
+    "python.pythonPath": "/Users/kaze/.anyenv/envs/pyenv/shims/python",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "ruby.rubocop.executePath": "/Users/kaze/.anyenv/envs/rbenv/shims/ruby",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "latex-workshop.latex.recipes": [
+        {  
+            "name": "BuildLatex",  
+            "tools": [ 
+              "CleanByMakeCommand",
+              "BuildByMakeCommand"  
+            ]  
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "CleanByMakeCommand",
+            "command": "make",
+            "args": [
+                "clean"
+            ] 
+        },
+        {
+            "name": "BuildByMakeCommand",
+            "command": "make"
+        },
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.message.update.show": false,
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    }
+}
+
