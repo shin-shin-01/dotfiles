@@ -22,6 +22,19 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
+    "[tex]": {
+        // スニペット補完中にも補完を使えるようにする
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.tabSize": 2
+    },
+    "[latex]": {
+        // スニペット補完中にも補完を使えるようにする
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.tabSize": 2
+    },
+    "[bibtex]": {
+        "editor.tabSize": 2
+    },
     "latex-workshop.latex.recipes": [
         {  
             "name": "BuildLatex",  
@@ -29,7 +42,7 @@
               "CleanByMakeCommand",
               "BuildByMakeCommand"  
             ]  
-        },
+        }
     ],
     "latex-workshop.latex.tools": [
         {
