@@ -25,15 +25,18 @@
     "[tex]": {
         // スニペット補完中にも補完を使えるようにする
         "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     },
     "[latex]": {
         // スニペット補完中にも補完を使えるようにする
         "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     },
     "[bibtex]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     },
     "latex-workshop.latex.recipes": [
         {  
@@ -61,6 +64,7 @@
     "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.message.update.show": false,
     "[json]": {
+
 
         "editor.quickSuggestions": {
             "strings": true
