@@ -8,6 +8,6 @@
     df = diff
     br = branch
     co = checkout
-    clean-branch = git branch --merged | egrep -v '\\*|master|dev|release' | xargs git branch -D
+    clean-branch = !git branch --merged | egrep -v '\\*|master|dev|release' | xargs git branch -D
 [fetch]
     prune = true
