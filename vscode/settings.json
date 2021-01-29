@@ -22,6 +22,11 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true
+    },
     "[tex]": {
         // スニペット補完中にも補完を使えるようにする
         "editor.suggest.snippetsPreventQuickSuggestions": false,
