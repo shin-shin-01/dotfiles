@@ -3,10 +3,11 @@
     email = kaze.bknb@outlook.jp
 
 [alias]
-	st = status
-	cm = commit
-	df = diff
-	br = branch
-	co = checkout
+    st = status
+    cm = commit
+    df = diff
+    br = branch
+    co = checkout
+    clean-branch = git branch --merged | egrep -v '\\*|master|dev|release' | xargs git branch -D
 [fetch]
-	prune = true
+    prune = true
