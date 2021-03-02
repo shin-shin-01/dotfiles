@@ -2,6 +2,9 @@
     name = "Kaze Shindo"
     email = kaze.bknb@outlook.jp
 
+[url "git@github.com:"]
+    InsteadOf = https://github.com/
+
 [alias]
     st = status
     cm = commit
@@ -9,5 +12,6 @@
     br = branch
     co = checkout
     clean-branch = !git branch --merged | egrep -v '\\*|master|dev|release' | xargs git branch -D
+
 [fetch]
     prune = true
