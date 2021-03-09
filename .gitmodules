@@ -16,3 +16,6 @@
 [submodule ".anyenv/envs/tfenv"]
 	path = .anyenv/envs/tfenv
 	url = https://github.com/tfutils/tfenv.git
+[submodule ".anyenv/envs/phpenv"]
+	path = .anyenv/envs/phpenv
+	url = https://github.com/phpenv/phpenv.git
