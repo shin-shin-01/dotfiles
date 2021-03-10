@@ -4,6 +4,7 @@ export PATH="$HOME/.anyenv/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
+export PATH=$PATH:$HOME/usr/local/bin
 export PATH=$PATH:$HOME/Desktop/zumo/gcc-arm-none-eabi-8-2018-q4-major/bin
 export PATH=$PATH:$HOME/.nodebrew/current/bin
 export PATH=$PATH:$HOME/usr/local/texlive/2019/texmf-dist/doc
