@@ -15,3 +15,5 @@
 
 [fetch]
     prune = true
+[pull]
+	rebase = true
