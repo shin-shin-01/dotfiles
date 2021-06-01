@@ -1,5 +1,6 @@
 eval "$(anyenv init -)"
 export PATH="$HOME/.anyenv/bin:$PATH"
+export PATH=$PATH:$HOME/.anyenv/.nodenv/shims/npm
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
