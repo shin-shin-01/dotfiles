@@ -14,6 +14,7 @@ export PATH=$PATH:$HOME/usr/local/Cellar
 export PATH=$PATH:$HOME/usr/local/Cellar/pyenv/1.2.15/plugins/python-build/share/python-build/
 export PATH=$PATH:$HOME/Applications/Postgres.app/Contents/Versions/latest/bin
 export PATH=$PATH:$HOME/flutter/bin
+export PATH=$PATH:$HOME/flutter/.pub-cache/bin
 
 if [ -f ~/.zshrc ] ; then
   . ~/.zshrc
