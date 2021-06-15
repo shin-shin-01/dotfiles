@@ -19,3 +19,6 @@
 [submodule ".anyenv/envs/phpenv"]
 	path = .anyenv/envs/phpenv
 	url = https://github.com/phpenv/phpenv.git
+[submodule ".anyenv/plugins/anyenv-update"]
+	path = .anyenv/plugins/anyenv-update
+	url = https://github.com/znz/anyenv-update
