@@ -6,6 +6,8 @@ source $ZPLUG_HOME/init.zsh
 
 source enhanced/init.sh
 
+eval "$(pyenv init -)"
+
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-completions"
